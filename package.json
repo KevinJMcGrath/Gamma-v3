@@ -1,0 +1,31 @@
+{
+  "name": "gamma-v3",
+  "version": "0.0.1",
+  "description": "The next iteration of the gamma project, hosted on GCP",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinJMcGrath/Gamma-v3.git"
+  },
+  "keywords": [
+    "Gamma",
+    "Self-Service",
+    "Stripe",
+    "Symphony"
+  ],
+  "author": "Kevin McGrath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinJMcGrath/Gamma-v3/issues"
+  },
+  "homepage": "https://github.com/KevinJMcGrath/Gamma-v3#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "vue": "^2.5.14",
+    "webpack": "^4.1.1"
+  }
+}
